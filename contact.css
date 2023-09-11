@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.container{
+    width: 100vw;
+  
+}
+.four{
+  width: 100%;
+  height: 50vh;
+  background-color: blue;
+  background-image: url(images/blue\ wallpaper.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.contact-write h2{
+    margin: 20px 0 0 20px;
+}
+.firstwriteup{
+    width: 300px;
+    margin: 0 auto;
+}
+.firstwriteup h2{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.firstwriteup p{
+    font-size: 15px;
+    color: black;
+}
+.subwriteup{
+   margin: 50px 20px 50px 20px; 
+}
+h5{
+    font-size: 18px;
+    color: black;
+    padding: 20px 0 20px 0;
+}
+form{ 
+    color:black;
+}
+label{
+    display: block;
+    color: black;
+    margin-top: 10px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #000080;
+}
+.longer{
+    height: 150px;
+}
+.submit1{
+    background: gold;
+    display: block;
+    width:50px;
+    margin: 20px 0 0 150px;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 992px ){
+    .contact-write {
+        width: 300px;
+        margin: 0 auto;
+        
+    }
+    .contact-write h2{
+        font-size: 40px;
+        padding-top: 20px;
+    }
+    .firstwriteup{
+        //background: green;
+        width: 900px;
+        margin: 0 auto;
+    }
+    .firstwriteup h2{
+        font-size: 40px;
+        color: black;
+        margin-bottom: 20px;
+    }
+    
+    .firstwriteup p{
+        font-size: 20px;
+        font-weight: lighter;
+        color: black;
+    }
+    .subwriteup{
+        margin: 100px 0 100px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    h5{
+        font-size: 25px;
+        color: black;
+        padding: 10px 0 10px 0;
+    }
+    .address{
+        //background: yellow;
+        width: 400px;
+        margin-top: 20px;
+    }
+    .fillup{
+       //background: pink;
+        width: 400px;
+        margin-right: 250px;
+    }
+    label{
+        display: block;
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+        margin-top: 10px;
+    }
+    input{
+        width: 400px;
+        height: 50px;
+        border: 1px solid #000080;
+    }
+    .longer{
+        height: 200px;
+    }
+    .submit1{
+        background: gold;
+        display: block;
+        width:70px;
+        height: 30px;
+        margin: 20px 0 0 330px;
+        border-radius: 5px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 1180px ){
+    .firstwriteup{
+            //background: green;
+            width: 1000px;
+            margin: 0 auto;
+        }
+}
